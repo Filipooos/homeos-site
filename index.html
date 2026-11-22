@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HomeOS Home</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --ink: #1c1c1e;
+        --muted: #6e6e73;
+        --bg: #f5f5f7;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --ink: #f5f5f7;
+          --muted: #a1a1a6;
+          --bg: #111113;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font:
+          17px/1.55 -apple-system,
+          system-ui,
+          sans-serif;
+      }
+      main {
+        max-width: 640px;
+        margin: 0 auto;
+        padding: 48px 16px;
+      }
+      h1 {
+        font-size: 34px;
+        margin: 0 0 8px;
+        letter-spacing: -0.02em;
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      a {
+        color: #0a84ff;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>HomeOS Home</h1>
+      <p>
+        A room-first remote for the Home Assistant you already run at home, with an account for
+        everyone in the household.
+      </p>
+      <h2>Support</h2>
+      <p>Questions or problems: <a href="mailto:kokpit250@gmail.com">kokpit250@gmail.com</a>.</p>
+      <p>
+        HomeOS needs the HomeOS add-on running on your own Home Assistant. Sign in by scanning the
+        sign-in code your household's admin shows you, then type your password. Without one, "Try
+        the demo home" on the first screen shows a sample home built into the app.
+      </p>
+      <p><a href="privacy.html">Privacy policy</a></p>
+    </main>
+  </body>
+</html>
